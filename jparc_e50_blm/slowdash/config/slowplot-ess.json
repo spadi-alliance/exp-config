@@ -1,0 +1,63 @@
+{
+  "control": {
+    "range": {
+      "length": 300
+    },
+    "reload": 1,
+    "grid": {
+      "rows": 3,
+      "columns": 3
+    }
+  },
+  "panels": [
+      { "type": "timeaxis",
+        "plots": [ { "type": "timeseries", "channel": "ess:ess1_pos_vset",  "color": "#009090", "opacity": 0.2, "label": "", "format": "%.5g" },
+                   { "type": "timeseries", "channel": "ess:ess1_neg_vset",  "color": "#f09090", "opacity": 0.2, "label": "", "format": "%.5g" },
+                 ],
+        "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false , "title": "ess:ess1_vset", "ytitle": "Voltage (kV)"}
+      },
+      { "type": "timeaxis",
+        "plots": [ { "type": "timeseries", "channel": "ess:ess1_pos_vmon",  "color": "#009090", "opacity": 0.2, "label": "", "format": "%.5g" },
+                   { "type": "timeseries", "channel": "ess:ess1_neg_vmon",  "color": "#f09090", "opacity": 0.2, "label": "", "format": "%.5g" },
+                 ],
+        "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false , "title": "ess:ess1_vmon", "ytitle": "Voltage (kV)"}
+      },
+      { "type": "timeaxis",
+        "plots": [ { "type": "timeseries", "channel": "ess:ess1_pos_imon",  "color": "#009090", "opacity": 0.2, "label": "", "format": "%.5g" },
+                   { "type": "timeseries", "channel": "ess:ess1_neg_imon",  "color": "#f09090", "opacity": 0.2, "label": "", "format": "%.5g" },
+                 ],
+        "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false , "title": "ess:ess1_imon", "ytitle": "Voltage (kV)"}
+      },
+      { "type": "timeaxis",
+        "plots": [ { "type": "timeseries", "channel": "ess:ess2_pos_vset",  "color": "#009090", "opacity": 0.2, "label": "", "format": "%.5g" },
+                   { "type": "timeseries", "channel": "ess:ess2_neg_vset",  "color": "#f09090", "opacity": 0.2, "label": "", "format": "%.5g" },
+                 ],
+        "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false , "title": "ess:ess2_vset", "ytitle": "Voltage (kV)"}
+      },
+      { "type": "timeaxis",
+        "plots": [ { "type": "timeseries", "channel": "ess:ess2_pos_vmon",  "color": "#009090", "opacity": 0.2, "label": "", "format": "%.5g" },
+                   { "type": "timeseries", "channel": "ess:ess2_neg_vmon",  "color": "#f09090", "opacity": 0.2, "label": "", "format": "%.5g" },
+                 ],
+        "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false , "title": "ess:ess2_vmon", "ytitle": "Voltage (kV)"}
+      },
+      { "type": "timeaxis",
+        "plots": [ { "type": "timeseries", "channel": "ess:ess2_pos_imon",  "color": "#009090", "opacity": 0.2, "label": "", "format": "%.5g" },
+                   { "type": "timeseries", "channel": "ess:ess2_neg_imon",  "color": "#f09090", "opacity": 0.2, "label": "", "format": "%.5g" },
+                 ],
+        "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false , "title": "ess:ess2_imon", "ytitle": "Voltage (kV)"}
+      },
+      { "type": "timeaxis",
+        "plots": [ { "type": "timeseries", "channel": "ess:ess1_vac_pres",  "color": "#009090", "opacity": 0.2, "label": "", "format": "%.5g" } ],
+        "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false , "title": "ess:ess1_vac_pres", "ytitle": "Pressure (Pa)"}
+      },
+      { "type": "timeaxis",
+        "plots": [ { "type": "timeseries", "channel": "ess:ess2_vac_pres",  "color": "#009090", "opacity": 0.2, "label": "", "format": "%.5g" } ],
+        "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false , "title": "ess:ess2_vac_pres", "ytitle": "Pressure (Pa)"}
+      }
+  ],
+  "meta": {
+    "name": "ess",
+    "title": "",
+    "description": ""
+  }
+}

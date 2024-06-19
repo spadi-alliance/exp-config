@@ -1,0 +1,20 @@
+{
+  "control": {
+    "range": {
+      "length": 300
+    },
+    "reload": 1,
+    "grid": {
+      "rows": 1,
+      "columns": 1
+    }
+  },
+  "panels": [
+      { "type": "plot", "plots": [ { "type": "histogram", "channel": "rate_192.168.2.168",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.168", "format": "%.5g" } ], "axes": { "xfixed": true, "yfixed": false, "xlog": false, "ylog": false, "xmin": 0, "xmax": 16 } }
+  ],
+  "meta": {
+    "name": "count-rate",
+    "title": "",
+    "description": ""
+  }
+}
