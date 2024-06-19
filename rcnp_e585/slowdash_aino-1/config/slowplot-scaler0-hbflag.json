@@ -1,0 +1,259 @@
+{
+  "control": {
+    "range": {
+      "length": 300
+    },
+    "reload": 2,
+    "grid": {
+      "rows": 3,
+      "columns": 3
+    }
+  },
+  "panels": [
+    {
+      "type": "plot",
+      "plots": [
+        {
+          "type": "histogram",
+          "channel": "flag:Scaler-0:bit",
+          "color": "#009090",
+          "opacity": 0.2,
+          "label": "",
+          "format": "%.5g"
+        }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": true,
+        "xmin": -20,
+        "xmax": 20,
+        "ymin": 0,
+        "ymax": 200,
+        "title": " AmQ-00 flag bit"
+      }
+    },
+    {
+      "type": "plot",
+      "plots": [
+        {
+          "type": "histogram",
+          "channel": "flag:Scaler-1:bit",
+          "color": "#009090",
+          "opacity": 0.2,
+          "label": "",
+          "format": "%.5g"
+        }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": true,
+        "xmin": -20,
+        "xmax": 20,
+        "ymin": 0,
+        "ymax": 200,
+        "title": "AmQ-01 flag bit"
+      }
+    },
+    {
+      "type": "plot",
+      "plots": [
+        {
+          "type": "histogram",
+          "channel": "flag:Scaler-2:bit",
+          "color": "#009090",
+          "opacity": 0.2,
+          "label": "",
+          "format": "%.5g"
+        }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": true,
+        "xmin": -20,
+        "xmax": 20,
+        "ymin": 0,
+        "ymax": 200,
+        "title": "AmQ-02 flag bit"
+      }
+    },
+    {
+      "type": "plot",
+      "plots": [
+        {
+          "type": "histogram",
+          "channel": "flag:Scaler-3:bit",
+          "color": "#009090",
+          "opacity": 0.2,
+          "label": "",
+          "format": "%.5g"
+        }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": true,
+        "xmin": -20,
+        "xmax": 20,
+        "ymin": 0,
+        "ymax": 200,
+        "title": "AmQ-03 flag bit"
+      }
+    },
+    {
+      "type": "plot",
+      "plots": [
+        {
+          "type": "histogram",
+          "channel": "flag:Scaler-4:bit",
+          "color": "#009090",
+          "opacity": 0.2,
+          "label": "",
+          "format": "%.5g"
+        }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": true,
+        "xmin": -20,
+        "xmax": 20,
+        "ymin": 0,
+        "ymax": 200,
+        "title": "AmQ-04 flag bit"
+      }
+    },
+    {
+      "type": "plot",
+      "plots": [
+        {
+          "type": "histogram",
+          "channel": "flag:Scaler-5:bit",
+          "color": "#009090",
+          "opacity": 0.2,
+          "label": "",
+          "format": "%.5g"
+        }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": true,
+        "xmin": -20,
+        "xmax": 20,
+        "ymin": 0,
+        "ymax": 200,
+        "title": "AmQ-05 flag bit"
+      }
+    },
+    {
+      "type": "plot",
+      "plots": [
+        {
+          "type": "histogram",
+          "channel": "flag:Scaler-6:bit",
+          "color": "#009090",
+          "opacity": 0.2,
+          "label": "",
+          "format": "%.5g"
+        }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": true,
+        "xmin": -20,
+        "xmax": 20,
+        "ymin": 0,
+        "ymax": 200,
+        "title": "AmQ-06 flag bit"
+      }
+    },
+    {
+      "type": "plot",
+      "plots": [
+        {
+          "type": "histogram",
+          "channel": "flag:Scaler-7:bit",
+          "color": "#009090",
+          "opacity": 0.2,
+          "label": "",
+          "format": "%.5g"
+        }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": true,
+        "xmin": -20,
+        "xmax": 20,
+        "ymin": 0,
+        "ymax": 200,
+        "title": "AmQ-07 flag bit"
+      }
+    },
+    {
+      "type": "plot",
+      "plots": [
+        {
+          "type": "histogram",
+          "channel": "flag:Scaler-8:bit",
+          "color": "#009090",
+          "opacity": 0.2,
+          "label": "",
+          "format": "%.5g"
+        }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": true,
+        "xmin": -20,
+        "xmax": 20,
+        "ymin": 0,
+        "ymax": 200,
+        "title": "AmQ-08 flag bit"
+      }
+    },
+    {
+      "type": "plot",
+      "plots": [
+        {
+          "type": "histogram",
+          "channel": "flag:Scaler-9:bit",
+          "color": "#009090",
+          "opacity": 0.2,
+          "label": "",
+          "format": "%.5g"
+        }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": true,
+        "xmin": -20,
+        "xmax": 20,
+        "ymin": 0,
+        "ymax": 200,
+        "title": "AmQ-09 flag bit"
+      }
+    }      
+  ],
+  "meta": {
+    "name": "slowplot-scaler0-hbflag",
+    "title": "",
+    "description": ""
+  }
+}

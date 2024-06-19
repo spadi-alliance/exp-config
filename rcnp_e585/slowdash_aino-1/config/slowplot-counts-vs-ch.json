@@ -1,0 +1,235 @@
+{
+  "control": {
+    "range": {
+      "length": 300
+    },
+    "reload": 2,
+    "grid": {
+      "rows": 3,
+      "columns": 3
+    }
+  },
+  "panels": [
+    {
+      "type": "plot",
+      "plots": [
+        {
+          "type": "histogram",
+          "channel": "scaler:Scaler-0:counts-vs-ch",
+          "color": "#009090",
+          "opacity": 0.2,
+          "label": "",
+          "format": "%.5g"
+        }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": true,
+        "xmin": -20,
+        "xmax": 20,
+        "ymin": 0,
+        "ymax": 200,
+        "title": "AmQ-00 hit counts vs ch"
+      }
+    },
+    {
+      "type": "plot",
+      "plots": [
+        {
+          "type": "histogram",
+          "channel": "scaler:Scaler-1:counts-vs-ch",
+          "color": "#009090",
+          "opacity": 0.2,
+          "label": "",
+          "format": "%.5g"
+        }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": true,
+        "xmin": -20,
+        "xmax": 20,
+        "ymin": 0,
+        "ymax": 200,
+        "title": "AmQ-01 hit counts vs ch"
+      }
+    },
+    {
+      "type": "plot",
+      "plots": [
+        {
+          "type": "histogram",
+          "channel": "scaler:Scaler-2:counts-vs-ch",
+          "color": "#009090",
+          "opacity": 0.2,
+          "label": "",
+          "format": "%.5g"
+        }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": true,
+        "xmin": -20,
+        "xmax": 20,
+        "ymin": 0,
+        "ymax": 200,
+        "title": "AmQ-02 hit counts vs ch"
+      }
+    },
+    {
+      "type": "plot",
+      "plots": [
+        {
+          "type": "histogram",
+          "channel": "scaler:Scaler-3:counts-vs-ch",
+          "color": "#009090",
+          "opacity": 0.2,
+          "label": "",
+          "format": "%.5g"
+        }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": true,
+        "xmin": -20,
+        "xmax": 20,
+        "ymin": 0,
+        "ymax": 200,
+        "title": "AmQ-03 hit counts vs ch"
+      }
+    },
+    {
+      "type": "plot",
+      "plots": [
+        {
+          "type": "histogram",
+          "channel": "scaler:Scaler-4:counts-vs-ch",
+          "color": "#009090",
+          "opacity": 0.2,
+          "label": "",
+          "format": "%.5g"
+        }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": true,
+        "xmin": -20,
+        "xmax": 20,
+        "ymin": 0,
+        "ymax": 200,
+        "title": "AmQ-04 hit counts vs ch"
+      }
+    },
+    {
+      "type": "plot",
+      "plots": [
+        {
+          "type": "histogram",
+          "channel": "scaler:Scaler-5:counts-vs-ch",
+          "color": "#009090",
+          "opacity": 0.2,
+          "label": "",
+          "format": "%.5g"
+        }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": true,
+        "xmin": -20,
+        "xmax": 20,
+        "ymin": 0,
+        "ymax": 200,
+        "title": "AmQ-05 hit counts vs ch"
+      }
+    },
+    {
+      "type": "plot",
+      "plots": [
+        {
+          "type": "histogram",
+          "channel": "scaler:Scaler-6:counts-vs-ch",
+          "color": "#009090",
+          "opacity": 0.2,
+          "label": "",
+          "format": "%.5g"
+        }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": true,
+        "xmin": -20,
+        "xmax": 20,
+        "ymin": 0,
+        "ymax": 200,
+        "title": "AmQ-06 hit counts vs ch"
+      }
+    },
+    {
+      "type": "plot",
+      "plots": [
+        {
+          "type": "histogram",
+          "channel": "scaler:Scaler-7:counts-vs-ch",
+          "color": "#009090",
+          "opacity": 0.2,
+          "label": "",
+          "format": "%.5g"
+        }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": true,
+        "xmin": -20,
+        "xmax": 20,
+        "ymin": 0,
+        "ymax": 200,
+        "title": "AmQ-07 hit counts vs ch"
+      }
+    },
+    {
+      "type": "plot",
+      "plots": [
+        {
+          "type": "histogram",
+          "channel": "scaler:Scaler-8:counts-vs-ch",
+          "color": "#009090",
+          "opacity": 0.2,
+          "label": "",
+          "format": "%.5g"
+        }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": true,
+        "xmin": -20,
+        "xmax": 20,
+        "ymin": 0,
+        "ymax": 200,
+        "title": "AmQ-08 hit count vs ch"
+      }
+    }
+  ],
+  "meta": {
+    "name": "redis-test",
+    "title": "",
+    "description": ""
+  }
+}
