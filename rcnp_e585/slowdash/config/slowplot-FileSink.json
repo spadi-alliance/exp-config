@@ -1,0 +1,88 @@
+{
+  "control": {
+    "range": {
+      "length": 300
+    },
+    "reload": 2,
+    "grid": {
+      "rows": 2,
+      "columns": 2
+    }
+  },
+  "panels": [
+    {
+      "type": "timeaxis",
+      "plots": [
+        { "type": "timeseries", "channel": "ts:FileSink-0:in[0]:mb-in", "color": "#009090", "label": "FS-0-in", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:FileSink-1:in[0]:mb-in", "color": "#909000", "label": "FS-1-in", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:FileSink-2:in[0]:mb-in", "color": "#900090", "label": "FS-2-in", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:FileSink-3:in[0]:mb-in", "color": "#909090", "label": "FS-3-in", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:FileSink-4:in[0]:mb-in", "color": "#005050", "label": "FS-4-in", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:FileSink-5:in[0]:mb-in", "color": "#505000", "label": "FS-5-in", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:FileSink-6:in[0]:mb-in", "color": "#500050", "label": "FS-6-in", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:FileSink-7:in[0]:mb-in", "color": "#505050", "label": "FS-6-in", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": false,
+        "ymin": -6,
+        "ymax": 5,
+        "title": "FileSink Data in"
+      }
+    },
+
+    {
+      "type": "timeaxis",
+      "plots": [
+        { "type": "timeseries", "channel": "ts:FileSink-0:cpu-stat", "color": "#009090", "label": "FS-0-cpu", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:FileSink-1:cpu-stat", "color": "#909000", "label": "FS-1-cpu", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:FileSink-2:cpu-stat", "color": "#900090", "label": "FS-2-cpu", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:FileSink-3:cpu-stat", "color": "#909090", "label": "FS-3-cpu", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:FileSink-4:cpu-stat", "color": "#005050", "label": "FS-4-cpu", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:FileSink-5:cpu-stat", "color": "#505000", "label": "FS-5-cpu", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:FileSink-6:cpu-stat", "color": "#500050", "label": "FS-6-cpu", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:FileSink-7:cpu-stat", "color": "#505050", "label": "FS-7-cpu", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": false,
+        "ymin": 0,
+        "ymax": 100,
+        "title": "FileSink CPU"
+      }
+    },
+
+    {
+      "type": "timeaxis",
+      "plots": [
+        { "type": "timeseries", "channel": "ts:FileSink-0:ram-stat", "color": "#009090", "label": "FS-0-ram", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:FileSink-1:ram-stat", "color": "#909000", "label": "FS-1-ram", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:FileSink-2:ram-stat", "color": "#900090", "label": "FS-2-ram", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:FileSink-3:ram-stat", "color": "#909090", "label": "FS-3-ram", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:FileSink-4:ram-stat", "color": "#005050", "label": "FS-4-ram", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:FileSink-5:ram-stat", "color": "#505000", "label": "FS-5-ram", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:FileSink-6:ram-stat", "color": "#500050", "label": "FS-6-ram", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:FileSink-7:ram-stat", "color": "#505050", "label": "FS-7-ram", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": false,
+        "ymin": 0,
+        "ymax": 100,
+        "title": "FileSink Memory"
+      }
+    }
+
+  ],
+  "meta": {
+    "name": "TFB",
+    "title": "FileSink",
+    "description": ""
+  }
+}

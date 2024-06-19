@@ -1,0 +1,96 @@
+{
+  "control": {
+    "range": {
+      "length": 300
+    },
+    "reload": 2,
+    "grid": {
+      "rows": 2,
+      "columns": 2
+    }
+  },
+  "panels": [
+    {
+      "type": "timeaxis",
+      "plots": [
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-0:out[0]:mb-out", "color": "#009090", "label": "TFB-0-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-0:in[0]:mb-in", "color": "#009090", "label": "TFB-0-in", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-1:out[0]:mb-out", "color": "#000090", "label": "TFB-1-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-1:in[0]:mb-in", "color": "#000090", "label": "TFB-1-in", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-2:out[0]:mb-out", "color": "#009000", "label": "TFB-2-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-2:in[0]:mb-in", "color": "#009000", "label": "TFB-2-in", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-3:out[0]:mb-out", "color": "#900000", "label": "TFB-3-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-3:in[0]:mb-in", "color": "#900000", "label": "TFB-3-in", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-4:out[0]:mb-out", "color": "#909000", "label": "TFB-4-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-4:in[0]:mb-in", "color": "#909000", "label": "TFB-4-in", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-5:out[0]:mb-out", "color": "#900090", "label": "TFB-5-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-5:in[0]:mb-in", "color": "#900090", "label": "TFB-5-in", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-6:out[0]:mb-out", "color": "#005050", "label": "TFB-6-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-6:in[0]:mb-in", "color": "#005050", "label": "TFB-6-in", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-7:out[0]:mb-out", "color": "#500050", "label": "TFB-7-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-7:in[0]:mb-in", "color": "#500050", "label": "TFB-7-in", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": false,
+        "ymin": -6,
+        "ymax": 5,
+        "title": "Time Frame Builders Data Flow"
+      }
+    },
+
+    {
+      "type": "timeaxis",
+      "plots": [
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-0:cpu-stat", "color": "#009090", "label": "TFB-0-cpu", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-1:cpu-stat", "color": "#000090", "label": "TFB-1-cpu", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-2:cpu-stat", "color": "#009000", "label": "TFB-2-cpu", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-3:cpu-stat", "color": "#900000", "label": "TFB-3-cpu", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-4:cpu-stat", "color": "#909000", "label": "TFB-4-cpu", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-5:cpu-stat", "color": "#900090", "label": "TFB-5-cpu", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-6:cpu-stat", "color": "#005050", "label": "TFB-6-cpu", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-7:cpu-stat", "color": "#500050", "label": "TFB-7-cpu", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": false,
+        "ymin": 0,
+        "ymax": 100,
+        "title": "Time Frame Builders CPU"
+      }
+    },
+
+    {
+      "type": "timeaxis",
+      "plots": [
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-0:ram-stat", "color": "#009090", "label": "TFB-0-ram", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-1:ram-stat", "color": "#000090", "label": "TFB-1-ram", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-2:ram-stat", "color": "#009000", "label": "TFB-2-ram", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-3:ram-stat", "color": "#900000", "label": "TFB-3-ram", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-4:ram-stat", "color": "#909000", "label": "TFB-4-ram", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-5:ram-stat", "color": "#900090", "label": "TFB-5-ram", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-6:ram-stat", "color": "#005050", "label": "TFB-6-ram", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:TimeFrameBuilder-7:ram-stat", "color": "#500050", "label": "TFB-7-ram", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": false,
+        "ymin": 0,
+        "ymax": 100,
+        "title": "Time Frame Builders Memory"
+      }
+    }
+
+  ],
+  "meta": {
+    "name": "TFB",
+    "title": "Time Frame Builder",
+    "description": ""
+  }
+}

@@ -1,0 +1,127 @@
+#!/bin/bash
+
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/local/lib:$HOME/local/lib64
+
+tmux new-session -d -t sampler
+for runID in {0..8}
+do
+    echo "start device Sampler ${runID}"
+    #./start_device.sh.in AmQStrTdcSampler
+    tmux new-window -d -n S${runID} -t sampler -- ./start_device.sh AmQStrTdcSampler --host-ip 192.168.2.109
+    sleep 0.1
+done
+
+for runID in {0..0}
+do
+    echo "start device MikuSampler ${runID}"
+    #./start_device.sh.in AmQStrTdcSampler
+    tmux new-window -d -n S${runID} -t sampler -- ./start_device.sh AmQStrTdcSampler --service-name MikuTdcSampler --host-ip 192.168.2.109
+    sleep 0.1
+done
+
+tmux kill-window -t sampler:0
+xterm -geometry 80x15+0+0 -T Sampler -e tmux a -t sampler &
+
+
+tmux new-session -d -t stfb
+for runID in {0..8}
+do
+    echo "start device SubTime Frame Builder ${runID}"
+	tmux new-window -d -n STF${runID} -t stfb -- ./start_device.sh STFBuilder --host-ip 192.168.2.109
+    sleep 0.1
+done
+
+for runID in {0..0}
+do
+    echo "start device Miku SubTime Frame Builder ${runID}"
+	tmux new-window -d -n STF${runID} -t stfb -- ./start_device.sh STFBuilder --service-name MikuSTFBuilder --host-ip 192.168.2.109
+    sleep 0.1
+done
+tmux kill-window -t stfb:0
+xterm -geometry 80x15+500+0 -T SubTimeFrameBuilder -e tmux a -t stfb &
+
+
+tmux new-session -d -t tfb
+for runID in {0..7}
+#for runID in {0}
+do
+    echo "start device TimeFrameBuilder ${runID}"
+    tmux new-window -d -n STF${runID} -t tfb -- ./start_device.sh TimeFrameBuilder --host-ip 192.168.2.109
+    sleep 0.2
+done
+tmux kill-window -t tfb:0
+xterm -geometry 100x24 -T TimeFrameBuilder -e tmux a -t tfb &
+
+ tmux new-session -d -t flt
+ for runID in {0..7}
+ do
+     echo "start device Filter ${runID}"
+     tmux new-window -d -n FLT${runID} -t flt -- ./start_device.sh fltcoin
+     sleep 0.1
+ done
+ tmux kill-window -t flt:0
+ xterm -geometry 120x40 -T Flt -e tmux a -t flt &
+
+tmux new-session -d -t evb
+for runID in {0..7}
+do
+    echo "start device Evb ${runID}"
+#    tmux new-window -d -n EVB${runID} -t evb -- ./start_device.sh EventBuilder
+    tmux new-window -d -n EVB${runID} -t evb -- ./start_device.sh EventBuilder --tref-id 0xc0a802a8 --tref-ch 42 --host-ip 192.168.2.109
+    sleep 0.1
+done
+tmux kill-window -t evb:0
+xterm -geometry 80x15+800+0 -T Evb -e tmux a -t evb &
+
+tmux new-session -d -t scaler
+for runID in {0..8}
+do
+    echo "start device Scaler ${runID}"
+	tmux new-window -d -n Scaler${runID} -t scaler -- ./start_device.sh Scaler --host-ip 192.168.2.109
+    sleep 0.2
+done
+	
+tmux kill-window -t scaler:0
+xterm -geometry 80x15+500+270 -T Scaler -e tmux a -t scaler &
+
+# Sink
+#tmux new-session -d -t sink
+#for runID in {0..0}
+#do
+#    echo "start device FileSink ${runID}"
+#    tmux new-window -d -n STF${runID} -t sink -- ./start_device.sh FileSink --host-ip 192.168.2.109
+##    tmux new-window -d -n STF${runID} -t sink -- ./start_device.sh tfdump --service-name FileSink --host-ip 192.168.2.53
+#    #tmux new-window -d -n STF${runID} -t sink -- ./start_device.sh tfdump
+#    sleep 0.2
+#done
+#
+#for runID in {0..0}
+#do
+#    echo "start device MikuSink ${runID}"
+#    tmux new-window -d -n STF${runID} -t sink -- ./start_device.sh FileSink --service-name MikuSink --host-ip 192.168.2.109
+#    #tmux new-window -d -n STF${runID} -t sink -- ./start_device.sh tfdump
+#    sleep 0.2
+#done
+#
+#for runID in {0..0}
+#do
+#    echo "start device DecSink ${runID}"
+#    tmux new-window -d -n DecSink${runID} -t sink -- ./start_device.sh FileSink --service-name DecSink --host-ip 192.168.2.109
+#    #tmux new-window -d -n STF${runID} -t sink -- ./start_device.sh tfdump
+#    sleep 0.2
+#done
+#
+#for runID in {0..8}
+#do
+#    echo "start device ScrSink ${runID}"
+#    tmux new-window -d -n ScrSink${runID} -t sink -- ./start_device.sh FileSink --service-name ScrSink --host-ip 192.168.2.109
+#    sleep 0.2
+#done
+#
+#tmux kill-window -t sink:0
+#xterm -geometry 80x15 -T Sink -e tmux a -t sink &
+#
+
+#ssh -X nestdaq@getdaq02 '(cd run ; ./run_e585_sink_devel.sh)'
+ssh -X e585@aino-1 '(cd run; ./run_e585_sink_devel.sh)'

@@ -1,0 +1,14 @@
+meta:
+    title: GR All Plots
+    description: Loop over all Dashboards and Plots
+
+interval: 10
+
+pages:
+    - slowplot.html?config=slowplot-counts-vs-ch.json
+    - slowplot.html?config=slowplot-msg-in-msg-out.json
+    - slowplot.html?config=slowplot-msg-in-msg-out2.json
+    - slowplot.html?config=slowplot-stfb.json
+    - slowplot.html?config=slowplot-scaler0-hbflag.json
+    - slowplot.html?config=slowplot-TimeFrameBuilder.json
+    - slowplot.html?config=slowplot-EventBuilder.json

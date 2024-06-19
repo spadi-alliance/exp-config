@@ -1,0 +1,101 @@
+{
+  "control": {
+    "range": {
+      "length": 300
+    },
+    "reload": 2,
+    "grid": {
+      "rows": 2,
+      "columns": 2
+    }
+  },
+  "panels": [
+    {
+      "type": "timeaxis",
+      "plots": [
+        { "type": "timeseries", "channel": "ts:EventBuilder-0:out[0]:mb-out", "color": "#009090", "label": "EVB-0-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-0:in[0]:mb-in", "color": "#009090", "label": "EVB-0-in", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-1:out[0]:mb-out", "color": "#000090", "label": "EVB-1-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-1:in[0]:mb-in", "color": "#000090", "label": "EVB-1-in", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-2:out[0]:mb-out", "color": "#009000", "label": "EVB-2-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-2:in[0]:mb-in", "color": "#009000", "label": "EVB-2-in", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-3:out[0]:mb-out", "color": "#900000", "label": "EVB-3-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-3:in[0]:mb-in", "color": "#900000", "label": "EVB-3-in", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-4:out[0]:mb-out", "color": "#909000", "label": "EVB-4-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-4:in[0]:mb-in", "color": "#909000", "label": "EVB-4-in", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-5:out[0]:mb-out", "color": "#900090", "label": "EVB-5-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-5:in[0]:mb-in", "color": "#900090", "label": "EVB-5-in", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-6:out[0]:mb-out", "color": "#005050", "label": "EVB-6-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-6:in[0]:mb-in", "color": "#005050", "label": "EVB-6-in", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-7:out[0]:mb-out", "color": "#500050", "label": "EVB-7-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-7:in[0]:mb-in", "color": "#500050", "label": "EVB-7-in", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-8:out[0]:mb-out", "color": "#505000", "label": "EVB-8-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-8:in[0]:mb-in", "color": "#505000", "label": "EVB-8-in", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-9:out[0]:mb-out", "color": "#000050", "label": "EVB-9-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-9:in[0]:mb-in", "color": "#000050", "label": "EVB-9-in", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": false,
+        "ymin": 0,
+        "ymax": 50,
+        "title": "Event Builders Data flow"
+      }
+    },
+    {
+      "type": "timeaxis",
+      "plots": [
+        { "type": "timeseries", "channel": "ts:EventBuilder-0:cpu-stat", "color": "#009090", "label": "EVB-0-cpu", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-1:cpu-stat", "color": "#000090", "label": "EVB-1-cpu", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-2:cpu-stat", "color": "#009000", "label": "EVB-2-cpu", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-3:cpu-stat", "color": "#900000", "label": "EVB-3-cpu", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-4:cpu-stat", "color": "#909000", "label": "EVB-4-cpu", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-5:cpu-stat", "color": "#900090", "label": "EVB-5-cpu", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-6:cpu-stat", "color": "#005050", "label": "EVB-6-cpu", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-7:cpu-stat", "color": "#500050", "label": "EVB-7-cpu", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-8:cpu-stat", "color": "#505000", "label": "EVB-8-cpu", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-9:cpu-stat", "color": "#000050", "label": "EVB-9-cpu", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": false,
+        "ymin": 0,
+        "ymax": 100,
+        "title": "Event Builders CPU"
+      }
+    },  
+    {
+      "type": "timeaxis",
+      "plots": [
+        { "type": "timeseries", "channel": "ts:EventBuilder-0:ram-stat", "color": "#009090", "label": "EVB-0-ram", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-1:ram-stat", "color": "#000090", "label": "EVB-1-ram", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-2:ram-stat", "color": "#009000", "label": "EVB-2-ram", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-3:ram-stat", "color": "#900000", "label": "EVB-3-ram", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-4:ram-stat", "color": "#909000", "label": "EVB-4-ram", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-5:ram-stat", "color": "#900090", "label": "EVB-5-ram", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-6:ram-stat", "color": "#005050", "label": "EVB-6-ram", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-7:ram-stat", "color": "#500050", "label": "EVB-7-ram", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-8:ram-stat", "color": "#505000", "label": "EVB-8-ram", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:EventBuilder-9:ram-stat", "color": "#000050", "label": "EVB-9-ram", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": false,
+        "xlog": false,
+        "ylog": false,
+        "ymin": 0,
+        "ymax": 100,
+        "title": "Event Builders Memory"
+      }
+    }
+  ],
+  "meta": {
+    "name": "EVB",
+    "title": "Event Builder",
+    "description": ""
+  }
+}

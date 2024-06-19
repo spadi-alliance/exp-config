@@ -1,0 +1,42 @@
+{
+  "control": {
+    "range": {
+      "length": 300
+    },
+    "reload": 2,
+    "grid": {
+      "rows": 1,
+      "columns": 1
+    }
+  },
+  "panels": [
+    {
+      "type": "timeaxis",
+      "plots": [
+        { "type": "timeseries", "channel": "ts:AmQStrTdcSampler-0:out[0]:mb-out", "color": "#009090", "label": "Sapmler-0-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:AmQStrTdcSampler-1:out[0]:mb-out", "color": "#000090", "label": "Sapmler-1-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:AmQStrTdcSampler-2:out[0]:mb-out", "color": "#009000", "label": "Sapmler-2-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:AmQStrTdcSampler-3:out[0]:mb-out", "color": "#900000", "label": "Sapmler-3-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:AmQStrTdcSampler-4:out[0]:mb-out", "color": "#909000", "label": "Sapmler-4-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:AmQStrTdcSampler-5:out[0]:mb-out", "color": "#900090", "label": "Sapmler-5-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:AmQStrTdcSampler-6:out[0]:mb-out", "color": "#005050", "label": "Sapmler-6-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:AmQStrTdcSampler-7:out[0]:mb-out", "color": "#500050", "label": "Sapmler-7-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 },
+        { "type": "timeseries", "channel": "ts:AmQStrTdcSampler-8:out[0]:mb-out", "color": "#505000", "label": "Sapmler-8-out", "format": "%.5g", "opacity": 1, "marker_type": "circle", "marker_size": 2, "line_width": 1, "line_type": "connect", "fill_opacity": 0, "fill_baseline": 1e-100 }
+      ],
+      "axes": {
+        "xfixed": false,
+        "yfixed": true,
+        "xlog": false,
+        "ylog": true,
+        "ymin": 0,
+        "ymax": 100,
+        "title": "Time-Series in Redis-TS"
+      }
+    }
+  ],
+  "meta": {
+    "name": "mb-in-mb-out",
+    "title": "",
+    "description": ""
+  }
+}
