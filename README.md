@@ -6,6 +6,6 @@ Configuration files and scripts for individual experiments
 - J-APRC T103 test experiment (jparc_t103)
 - Tohoku Univ. RARIS Beam Profile Monitor (BPM) implimentation experiment (raris_bpm)
 
-## Git Pull Request Workflow
-Follow "Pull Request Workflow" in this repository.
-See https://docs.github.com/en/get-started/using-github/github-flow
+## Git Forking Workflow
+Follow "Forking Workflow" in this repository.
+See https://gitprotect.io/blog/git-forking-workflow/
