@@ -1,0 +1,26 @@
+# Device enable/disable
+SAMPLER=true
+STFB=true
+TFB=true
+LOGIC_FILTER1=true
+LOGIC_FILTER2=true
+TFS=true
+SCALER=false
+SCRSINK=false
+FILE_SINK=false
+DECSINK=true
+
+# Host and user configuration
+HOSTNAME=e50server05
+USERNAME=nestdaq
+
+# Run ranges (maximum values)
+SAMPLER_MAX=38
+STFB_MAX=38
+TFB_MAX=1
+LOGIC_FILTER1_MAX=3
+LOGIC_FILTER2_MAX=3
+TFS_MAX=7
+SCALER_MAX=38
+SCRSINK_MAX=38
+FILE_SINK_MAX=1

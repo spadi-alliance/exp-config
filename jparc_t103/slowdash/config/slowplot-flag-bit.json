@@ -1,0 +1,39 @@
+{
+  "control": {
+    "range": {
+      "length": 300
+    },
+    "reload": 1,
+    "grid": {
+      "rows": 4,
+      "columns": 5
+    }
+  },
+  "panels": [
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "flag:Scaler-0:bit",   "color": "#009090", "opacity": 0.2, "label": "192.168.2.169", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": true } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "flag:Scaler-1:bit",   "color": "#009090", "opacity": 0.2, "label": "192.168.2.170", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": true } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "flag:Scaler-2:bit",   "color": "#009090", "opacity": 0.2, "label": "192.168.2.161", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": true } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "flag:Scaler-3:bit",   "color": "#009090", "opacity": 0.2, "label": "192.168.2.162", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": true } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "flag:Scaler-4:bit",   "color": "#009090", "opacity": 0.2, "label": "192.168.2.163", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": true } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "flag:Scaler-5:bit",   "color": "#009090", "opacity": 0.2, "label": "192.168.2.164", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": true } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "flag:Scaler-6:bit",   "color": "#009090", "opacity": 0.2, "label": "192.168.2.165", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": true } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "flag:Scaler-7:bit",   "color": "#009090", "opacity": 0.2, "label": "192.168.2.166", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": true } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "flag:Scaler-8:bit",   "color": "#009090", "opacity": 0.2, "label": "192.168.2.167", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": true } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "flag:Scaler-9:bit",   "color": "#009090", "opacity": 0.2, "label": "192.168.2.168", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": true } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "flag:Scaler-10:bit",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.173", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": true } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "flag:Scaler-11:bit",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.174", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": true } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "flag:Scaler-12:bit",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.175", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": true } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "flag:Scaler-13:bit",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.176", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": true } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "flag:Scaler-14:bit",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.177", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": true } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "flag:Scaler-15:bit",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.178", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": true } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "flag:Scaler-16:bit",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.179", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": true } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "flag:Scaler-17:bit",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.160", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": true } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "flag:Scaler-18:bit",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.171", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": true } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "flag:Scaler-19:bit",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.172", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": true } }
+  ],
+  "meta": {
+    "name": "count-rate",
+    "title": "",
+    "description": ""
+  }
+}

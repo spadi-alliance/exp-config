@@ -1,0 +1,22 @@
+{
+  "control": {
+    "range": {
+      "length": 300
+    },
+    "reload": 1,
+    "grid": {
+      "rows": 2,
+      "columns": 2
+    }
+  },
+  "panels": [
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "rate_192.168.2.160",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.160", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "rate_192.168.2.171",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.171", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "rate_192.168.2.172",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.172", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false } }
+  ],
+  "meta": {
+    "name": "count-rate3",
+    "title": "",
+    "description": ""
+  }
+}

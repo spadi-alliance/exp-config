@@ -1,0 +1,37 @@
+{
+  "control": {
+    "range": {
+      "length": 300
+    },
+    "reload": 1,
+    "grid": {
+      "rows": 4,
+      "columns": 5
+    }
+  },
+  "panels": [
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "rate_192.168.2.101",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.101", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "rate_192.168.2.102",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.102", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "rate_192.168.2.103",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.103", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "rate_192.168.2.104",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.104", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "rate_192.168.2.105",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.105", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "rate_192.168.2.106",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.106", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "rate_192.168.2.107",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.107", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "rate_192.168.2.108",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.108", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "rate_192.168.2.109",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.109", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "rate_192.168.2.110",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.110", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "rate_192.168.2.111",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.111", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "rate_192.168.2.112",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.112", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "rate_192.168.2.113",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.113", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "rate_192.168.2.114",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.114", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "rate_192.168.2.115",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.115", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "rate_192.168.2.116",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.116", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "rate_192.168.2.117",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.117", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false } },
+    { "type": "plot", "plots": [ { "type": "histogram", "channel": "rate_192.168.2.118",  "color": "#009090", "opacity": 0.2, "label": "192.168.2.118", "format": "%.5g" } ], "axes": { "xfixed": false, "yfixed": false, "xlog": false, "ylog": false } }
+  ],
+  "meta": {
+    "name": "count-rate4",
+    "title": "",
+    "description": ""
+  }
+}
