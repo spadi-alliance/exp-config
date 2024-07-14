@@ -9,10 +9,10 @@ CONFIG_URI=' --parameter-config-uri tcp://127.0.0.1:6379/2'
 if [[ $1 =~ fairmq- ]]; then
   BINDIR=""
 else
-  BINDIR=$HOME/nestdaq/bin
+    BINDIR=$HOME/nestdaq/src/nestdaq-user-impl/bin
 fi
 
-PLUGIN_LIBDIR=$HOME/nestdaq/lib64
+PLUGIN_LIBDIR=$HOME/nestdaq/src/nestdaq-user-impl/lib64
 
 PLUGIN_SEARCH_PATH=" -S '<$PLUGIN_LIBDIR'"
 DAQSERVICE_PLUGIN=" -P daq_service"
