@@ -1,0 +1,1 @@
+../feesoft/scripts/reset_modules.sh
