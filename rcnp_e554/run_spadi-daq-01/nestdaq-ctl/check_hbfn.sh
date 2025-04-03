@@ -16,8 +16,9 @@ do
     do
 	str=$(timeout 0.2 nc $ip 24 2>/dev/null | od -tx8 -w8 | grep -e ' 70' | head -1)
 	hnum=$(echo $str | awk '{print substr($2, 11, 6)}')
-	dnum=$(echo $hnum | awk '{print strtonum("0x"$1)*0.000524288}')
-	echo "IP: $ip, od: \"$str\", HBF# 0x$hnum ($dnum sec)"
+	dnum=$(echo $hnum | awk '{print strtonum("0x"$1)}')
+	time=$(echo $hnum | awk '{print strtonum("0x"$1)*0.000524288}')
+	echo "IP: $ip, od: \"$str\", HBF# 0x$hnum 0d$dnum ($time sec)"
     done
     for ip in ${ip_list}
     do

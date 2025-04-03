@@ -1,8 +1,9 @@
 #/bin/bash
 
-
 echo "########### Get directory path including this script ############"
-DIR=$(dirname $(realpath ${BASH_SOURCE[0]}))
+# BASH_SOURCE[0] instead of $0 for source execution
+# readlink -f for link file, more common than realpath
+DIR=$(dirname $(readlink -f ${BASH_SOURCE[0]}))
 echo "# Script: $(basename ${BASH_SOURCE[0]}), directory: ${DIR}"
 echo "#################################################################"
 

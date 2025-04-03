@@ -6,7 +6,7 @@ echo "#########################################################"
 
 echo "Get redis server information..."
 redis_server="-u redis://localhost:6379"
-if [ -e ../redis-server.txt ];
+if [ -f ../redis-server.txt ];
 then
     redis_server=`cat ../redis-server.txt | sed 's/[[:blank:]]//g'`
     redis_server="-u redis://${redis_server}"
