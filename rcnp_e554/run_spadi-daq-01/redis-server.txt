@@ -1,1 +1,1 @@
-redis-server.getdaq02.txt
+redis-server.localhost.txt
